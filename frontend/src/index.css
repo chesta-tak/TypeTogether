@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Editor container height */
+.ql-container {
+  min-height: 300px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Smooth theme transitions */
+body {
+  @apply transition-colors duration-300;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+/* Optional scrollbar theme */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(100, 100, 255, 0.5);
+  border-radius: 6px;
+}
+
